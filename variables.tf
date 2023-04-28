@@ -9,3 +9,7 @@ variable "newrelic_api_key" {
   description = "New Relic API key"
   type        = string
 }
+variable "email_recipients" {
+  description = "List of email addresses to receive notifications"
+  type        = string
+}
